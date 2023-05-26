@@ -36,6 +36,8 @@ h1 {
     font-weight: 400;
     font-size: var(--font-96);
     line-height: 116px;
+    color: rgb(149, 153, 146);
+
 }
 
 h2 {
@@ -45,7 +47,13 @@ h2 {
     margin-bottom: 30px;
     color: rgb(149, 153, 146);
 }
+h3{
+    color: #e6eab3
 
+}
+p{
+    colot:#f5f5f5
+}
 p,
 a {
     font-weight: 400;
