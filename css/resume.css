@@ -514,3 +514,192 @@ p {
         padding: 40px;
     }
 }
+
+  
+  
+  
+  .flex-list li {
+    animation: slide-down 2s ease-out forwards;
+    opacity: 0;
+  }
+  .skill-cards flex-center{
+    animation: slide-down 1s ease-out forwards;
+    opacity: 5;
+  }
+  
+  @keyframes slide-down {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes revealBackground {
+    100% {
+        background-color: #000;
+    }
+    0% {
+        background-color: rgb(170, 171, 169);
+    }
+}
+
+
+
+
+
+@keyframes moveInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Define the animation for button appearance */
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 2;
+        transform: translateY(0);
+    }
+}/* Apply the animations to the cards */
+.cards .card {
+    animation: moveInFromLeft 7s ease-in-out;
+}
+
+.cards .card .card-buttons {
+    animation: fadeInFromTop 7s ease-in-out;
+    animation-delay: 1s;
+}
+@keyframes fadeInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 2;
+        transform: translateY(0);
+    }
+}
+h1{
+    animation: moveInFromLeft 2s ease-in-out;
+    
+}
+
+.skill-card {
+    opacity: 0;
+    animation: fade-in 15s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .skill-card:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .skill-card:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .skill-card:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .skill-card:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  .skill-card:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  
+  .skill-card:nth-child(6) {
+    animation-delay: 1s;
+  }
+  
+  .skill-card:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+  
+  .skill-card:nth-child(8) {
+    animation-delay: 1.4s;
+  }
+  
+  .skill-card:nth-child(9) {
+    animation-delay: 1.6s;
+  }
+  
+  .skill-card:nth-child(10) {
+    animation-delay: 1.8s;
+  }
+  
+ h2{
+    animation: moveInFromLeft 0.4s ease-in-out;
+
+ }
+  
+ .profile-container {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .profile {
+    opacity: 0;
+    animation: fadeInImage 3s ease-out forwards;
+  }
+  
+  @keyframes fadeInImage {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .ring {
+    opacity: 0;
+    animation: fadeInRing 1s ease-out forwards;
+  }
+  
+  @keyframes fadeInRing {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .animate-fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+  }
+  
