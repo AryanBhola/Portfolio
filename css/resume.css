@@ -48,11 +48,11 @@ h2 {
     color: rgb(149, 153, 146);
 }
 h3{
-    color: #e6eab3
+    color: #ffee03
 
 }
 p{
-    colot:#f5f5f5
+    color:#d9eaf9
 }
 p,
 a {
@@ -121,6 +121,7 @@ p {
 .list-items-circle li a:hover {
     background-color: var(--abc);
     border: 2px solid var(--black);
+    transition: background-color 1.2s ease;
 }
 
 .list-items-circle li a .fab {
@@ -147,6 +148,7 @@ p {
 .contact .list-items-circle li a:hover {
     background-color: var(--abc);
     border: 2px solid var(--black);
+    transition: background-color 1.2s ease;
 }
 
 .flex-list hr {
@@ -264,6 +266,7 @@ p {
 
 .projects .projects-link:hover {
     opacity: 1;
+    color: #1e561b;
 }
 
 .projects .cards {
@@ -313,23 +316,24 @@ p {
     align-items: center;
 
     opacity: 1;
-    color: var(--white);
+    color: #8aaae5;
 
     transition: 250ms ease all;
 }
 
 .projects .card .card-buttons .card-button--site {
-    background-color: var(--gray);
+    background-color: #040403;
 }
 
 .projects .card .card-buttons .card-button--code {
-    border: 1px solid var(--gray);
+    border: 1px solid #040403;
 }
 
 .projects .card .card-buttons .card-button--site:hover,
 .projects .card .card-buttons .card-button--code:hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: #e3e3e3;
+    color: #ffee03;
+    transition: background-color 1.5s ease;
 }
 
 /* === EXPERIENCE === */
@@ -655,6 +659,9 @@ h1.active{
  h2{
     animation: moveInFromLeft 0.5s ease-in-out;
 
+ }
+ p.active{
+    animation: moveInFromLeft 2s ease-in-out;
  }
   
  .profile-container {
