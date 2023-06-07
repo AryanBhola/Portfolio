@@ -192,16 +192,18 @@ p {
 
 /* HEADER */
 
-.header {
+.header.active {
     background-image: url('../img/xyz.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeInImage 5.5s ease-out forwards;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
 }
+
 
 .header .header-links,
 .contact .contact-links,
@@ -229,11 +231,12 @@ p {
 
 /* === ABOUT === */
 
-.about {
-    background-image: url('../img/Vector.png');
+.about{
+    /* background-image: url('../img/Vector.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 .about h2 {
@@ -401,10 +404,13 @@ p {
 
 /* === SKILLS === */
 
-.skills {
-    background-image: url('../img/Vector.png');
+.skills.active {
+    /* background-image: url('../img/Vector.png'); */
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fadeInImage 5.5s ease-out forwards;
+
+    
 }
 
 .skills .skill-cards {
