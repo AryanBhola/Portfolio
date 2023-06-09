@@ -142,7 +142,7 @@ p {
 }
 
 .contact .list-items-circle li a {
-    border: 2px solid var(--black);
+    /* border: 2px solid var(--black); */
 }
 
 .contact .list-items-circle li a:hover {
