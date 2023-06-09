@@ -413,7 +413,7 @@ p {
     /* background-image: url('../img/Vector.png'); */
     background-repeat: no-repeat;
     background-size: cover;
-    animation: fadeInImage 2s ease-out forwards;
+    animation: fadeInImage 1s ease-out forwards;
 
     
 }
@@ -538,7 +538,7 @@ p {
     opacity: 0;
   }
   .skill-cards flex-center{
-    animation: slide-down 1s ease-out forwards;
+    animation: slide-down 0.9s ease-out forwards;
     opacity: 5;
   }
   
@@ -589,12 +589,12 @@ p {
     }
 }/* Apply the animations to the cards */
 .cards .card.active {
-    animation: moveInFromLeft 2.5s ease-in-out forwards;
+    animation: moveInFromLeft 2.2s ease-in-out forwards;
     /* opacity: 1; */
 }
 
 .cards .card .card-buttons.active {
-    animation: fadeInFromTop 2.5s ease-in-out;
+    animation: fadeInFromTop 2.2s ease-in-out;
     
 }
 @keyframes fadeInFromBottom {
@@ -673,7 +673,7 @@ skill-card flex-center animated.active {
 
  }
  p.active{
-    animation: moveInFromLeft 2s ease-in-out;
+    animation: moveInFromLeft 1.5s ease-in-out;
  }
   
  .profile-container {
